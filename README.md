@@ -8,7 +8,10 @@ This is a minimal implementation of the RAG model for question answering
 - Installation
 - Run the FastAPI server
 
-
+## (Optional) Steup your command line intrface for better readability
+```bash
+export PS1="\[\033[01;32m\]\u@\h:\w\n\[\033[00m\]\$ "
+```
 
 ## Requirements
 
@@ -46,3 +49,11 @@ $ pip install -r requirements.txt
 ```bash 
 $ cp .env.example .env
 ```
+Set your environment variables in the .env file. Like OPENAI_API_KEY value.
+
+## Run the FastAPI server
+
+```bash
+$ uvicorn main:app --reload --host 0.0.0.0 --port 5000
+```
+
