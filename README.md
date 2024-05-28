@@ -1,2 +1,6 @@
 # Mini-RAG
-Mini RAG(Retrieval Augmented Generation) 
+This is a minimal implementation of the RAG model for question answering
+
+
+
+
