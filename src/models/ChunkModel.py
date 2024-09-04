@@ -76,6 +76,7 @@ class ChunkModel(BaseDataModel):
         records = await cursor.to_list(length=None)
         
         return [DataChunk(**record)for record in records]
+
     
     
 

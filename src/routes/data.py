@@ -4,7 +4,7 @@ import os
 from helpers.config import get_settings, Settings
 from controllers import DataController, ProjectController, ProcessController
 import aiofiles
-from models import ResponseSignal
+from models.enums import ResponseSignal
 import logging
 from routes.scheme.data import ProcessRequest
 from models.ProjectModel import ProjectModel
