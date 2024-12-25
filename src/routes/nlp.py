@@ -1,6 +1,6 @@
 from fastapi import FastAPI, APIRouter, status, Request
 from fastapi.responses import JSONResponse
-from controllers import NLPController
+from controllers import NLPController, SummaryController
 from models.ProjectModel import ProjectModel
 from models.ChunkModel import ChunkModel
 from models.enums import ResponseSignal
@@ -188,7 +188,7 @@ async def answer_rag(request: Request, project_id: str, search_request: SearchRe
         query=search_request.text,
         limit=search_request.limit,
     )
- 
+    print(search_request.text, search_request.limit)
     if not answer:
         return JSONResponse(
             status_code=status.HTTP_400_BAD_REQUEST,
@@ -198,7 +198,7 @@ async def answer_rag(request: Request, project_id: str, search_request: SearchRe
         )
     
     return JSONResponse(
-            status_code=status.HTTP_400_BAD_REQUEST,
+            status_code=status.HTTP_200_OK,
             content={
                 "signal": ResponseSignal.RAG_ANSWER_SUCCESS.value,
                 "answer": answer,

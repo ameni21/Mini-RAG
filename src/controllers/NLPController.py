@@ -103,7 +103,7 @@ class NLPController(BaseController):
             limit=limit
         )
 
-        if not retrieve_documents or len(retrieve_documents):
+        if not retrieve_documents or len(retrieve_documents)==0:
             return answer, full_prompt, chat_history 
         
         # step 2: construct LLM prompt
@@ -127,12 +127,13 @@ class NLPController(BaseController):
             for idx, doc in enumerate(retrieve_documents)
         ])
 
-        footer_prompt = self.template_parser.get("rag", "footer_prompt")
+        footer_prompt = self.template_parser.get("rag", "footer_prompt",{"query": query})
 
         chat_history = [
             self.generation_client.construct_prompt(
                 prompt=system_prompt,
-                role=self.generation_client.enums.SYSTEM.value,
+                role="system"
+                #self.generation_client.enums.SYSTEM.value,
             )
         ]
 

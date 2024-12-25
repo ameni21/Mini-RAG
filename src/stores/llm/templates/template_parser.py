@@ -26,6 +26,9 @@ class TemplateParser:
         if not group or not key:
             return None
         
+        # Ensure target_language is set to either self.language or self.default_language
+        target_language = self.laguage if self.laguage else self.default_language
+
         group_path = os.path.join(self.current_path, "locales", self.laguage, f"{group}.py" )
         if not os.path.exists(group_path):
             group_path = os.path.join(self.current_path, "locales", self.default_language, f"{group}.py" )

@@ -6,7 +6,7 @@ from string import Template
 
 #### System ####
 
-system_prompt = "\n".join([
+system_prompt = Template("\n".join([
     "You are an assistant to generate a response for the user.",
     "You will be provided by a set of documents associated with the user's query.",
     "you have to generate a response based on the documents provided.",
@@ -16,11 +16,11 @@ system_prompt = "\n".join([
     "Be polite and respectful to the user.",
     "Be precise and concise in your response. Avoid unnecessary information.",
 
-])
+]))
 
 
 ### Document ###
-document_prompt = Template(
+documents_prompt = Template(
     "\n".join([
     "## Document No: $doc_num",
     "### Content: $chunk_text",
@@ -31,6 +31,9 @@ document_prompt = Template(
 footer_prompt = Template("\n".join(
     [
         "Based only on the above documents, please generate an answer for the user.",
+        "## Question:",
+        "$query",
+        "",
         "## Answer:",
     ]
 ))
