@@ -17,7 +17,14 @@ export PS1="\[\033[01;32m\]\u@\h:\w\n\[\033[00m\]\$ "
 
   Python 3.8 or later
 
-  #### Install Python using pip3
+#### Install Dependencies 
+
+```bash 
+sudo apt update
+sudo apt install libpq-dev gcc python3-dev
+```
+
+ #### Install Python using pip3
 
 1) install pip 
 
