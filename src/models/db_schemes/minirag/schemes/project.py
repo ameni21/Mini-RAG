@@ -6,7 +6,7 @@ from sqlalchemy.orm import relationship
 
 class Project(SQLAlchemyBase):
 
-    _tablename__ = "projects"
+    __tablename__ = "projects"
 
     project_id = Column(Integer, primary_key=True, autoincrement=True)
     project_uuid = Column(UUID(as_uuid=True), default=uuid.uuid4, unique=True, nullable=False)

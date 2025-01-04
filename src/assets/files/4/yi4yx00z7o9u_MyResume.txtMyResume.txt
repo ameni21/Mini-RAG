@@ -1,0 +1,142 @@
+Ameni Mhadhbi
+
+
+mhadhbameni@gmail.com
+29162725
+Tunis
+https://www.linkedin.com/in/mhadhbiameni/
+https://github.com/ameni21
+
+
+
+------------------------
+Computer Science Graduate and Data Science Intern
+
+
+------------------------
+Passionate Data Science Intern, leveraging my background in data science and computer science to analyze, interpret, and present data effectively in speech recognition and natural language processing.
+
+
+Education
+------------------------
+Master's degree in Data Science
+Faculty of Science of Bizerte
+09/2022 - Present
+Courses
+
+
+Bachelor's degree in Computer Science
+Faculty of Science of Bizerte
+09/2019 - 07/2022
+Courses
+
+
+
+
+
+projects
+------------------------
+Business Meetings with AI-Powered Transcription ( master's internship)
+02/2024 - Present
+- <b>Audio Signal Processing</b> : Applied advanced machine learning techniques for audio signal processing, leveraging feature extraction methods such as Fourier transforms. 
+- <b>A solid knowldge of  Transcription Challenges: </b> transcription challenges in meeting scenarios, focusing on complex issues like overlapping speech. 
+- <b>Model </b> : Fine-tuned automatic speech recognition models and developed a robust speaker diarization system to accurately separate and identify speakers in meetings. 
+- <b>Retrieval-Augmented Generation (RAG)</b> : Developed a RAG application with effective prompting techniques to analyze meeting transcriptions, enabling both question-answering functionality and concise summarization of content. 
+- <b>CRISP-DM Methodology</b> : Followed the CRISP-DM framework to guide the development and evaluation of both speech recognition and diarization models. 
+- <b>FastAPI Integration</b> : Built an API using FastAPI to seamlessly integrate transcription and speaker diarization models into an application for easy deployment and interaction. 
+
+
+Mobile application to help/monitor individuals with autism (Bachelor's internship)
+02/2022 - 06/2022
+-  Developed a prototype for an application from conception to completion. Utilized Scrum for project management and designed interfaces with Uizard 
+- Utilized artificial intelligence APIs, including speech-to-text and text-to-speech.  
+-  Employed technical tools such as Python, Natural Language Processing (NLP), the Flutter framework, and Firebase as the back-end.  
+-  Utilized Scrum for project management and designed interfaces with Uizard.  
+
+
+
+
+
+Entrepreneurship
+------------------------
+Participation in Bootcamp and semi-final of  FSV'INNOV 1.0
+Faculty Of Sciences, Bizerte
+04/2023
+  the competition for the Best Innovative and Entrepreneurial  Initiatives 
+Achievements/Tasks
+
+
+
+The National Student Entrepreneur Status
+by POLE ETUDIANT ENTREPRENEUR DE CARTHAGE_PEEC
+01/2023
+Achievements/Tasks
+
+
+
+Participation in Mutual Hack
+by MAE Assurances
+05/2024
+Achievements/Tasks
+
+
+
+
+
+
+Skills
+------------------------
+-Up-to-Date Knowledge, Adaptability and  Presentation
+-Programming Languages: Python OOP, TensorFlow, Keras, longChain, Librosa
+-Framework: Angular, Flutter, FastAPI
+-Collaborative Development Tool: Git, GitHub
+-Document Composition Software: LaTeX
+-Containerization and Deployment: Docker
+-API Testing : Postman
+-Database Management: NoSQL (MongoDB), SQL
+
+
+
+Certificates
+------------------------
+FRTN Certified Artificial Intelligence and Global Skills
+10/2023
+AI Specialist with FRTN-certified expertise in ML, NLP, and Computer Vision.
+
+
+Microsoft Certified : Azure Data Fundamentals AD-900
+04/2023
+Credential ID : rzRn-uScU /   Credential URL :    verify.certiport.com
+
+
+Microsoft Certified : Excel 2019 Associate
+02/2023
+Credential ID :  wE8mV-48Xa /  Credential URL : verify.certiport.com
+
+
+Machine Learning withPython by IBM
+01/2023
+Credential ID :    ML0101EN /   Credential URL :  https://courses.cognitiveclass.ai/certificates/c39fb5032ea14f89b567b83e91b8b3b0
+
+
+Data Science Methodology by IBM
+07/2022
+Credential ID :  DS0103EN /  Credential URL :  https://courses.cognitiveclass.ai/certificates/2600f448b6e448c1b6495fe944e00f5d
+
+
+Deep Learning with TensorFlow by IBM
+07/2022
+Credential ID :  ML0120EN /   Credential URL :  https://courses.cognitiveclass.ai/certificates/c3ba25da2a2145f3a36a63ec815e9ec4
+
+
+
+
+
+Languages
+------------------------
+-Arabe- (100/100)
+-English- (60/100)
+-Français- (60/100)
+
+
+
