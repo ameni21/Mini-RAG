@@ -15,7 +15,7 @@ export PS1="\[\033[01;32m\]\u@\h:\w\n\[\033[00m\]\$ "
 
 ## Requirements
 
-  Python 3.8 or later
+  Python 3.10 or later
 
 #### Install Dependencies 
 

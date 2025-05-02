@@ -10,6 +10,7 @@ cp alembic.ini.example alembic.ini
 ### (Optional) create a new migration
 
 ```bash
+cd src/models/db_schemes/minirag
 alembic revision --autogenerate -m "ADD ... commit"
 ```
 ### Upgrade the database 
